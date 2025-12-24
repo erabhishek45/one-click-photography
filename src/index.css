@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Responsive */
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
   .hero-title {
       font-size: 5rem;
   }
@@ -78,8 +78,8 @@ h1, h2, h3, h4, h5, h6{
   .section-title {
       font-size: 4rem;
   }
-}
-
+} */
+/* 
 @media (max-width: 1200px) {
   .hero-title {
       font-size: 4rem;
@@ -87,14 +87,14 @@ h1, h2, h3, h4, h5, h6{
   
   .section-title {
       font-size: 3.5rem;
-  }
+  } */
   
   /* .portfolio-grid {
       grid-template-columns: repeat(2, 1fr);
   } */
-}
+/* } */
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .hero-title {
       font-size: 3.5rem;
   }
@@ -105,13 +105,13 @@ h1, h2, h3, h4, h5, h6{
   .navbar-nav{
     align-items: center;
     text-align: center;
-  }
+  } */
   
   /* .portfolio-grid {
       grid-template-columns: repeat(2, 1fr);
   } */
   
-  .pricing-card.featured {
+  /* .pricing-card.featured {
       transform: scale(1);
   }
   
@@ -119,9 +119,9 @@ h1, h2, h3, h4, h5, h6{
       padding-right: 0;
       margin-bottom: 3rem;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-title {
       font-size: 3rem;
   }
@@ -133,8 +133,51 @@ h1, h2, h3, h4, h5, h6{
   .contact-form {
       padding: 2rem;
   }
+} */
+
+
+/* Tablet screens: 769px - 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .hero-title {
+      font-size: 3.5rem;
+  }
+  .section-title {
+      font-size: 3rem;
+  }
+  .about-content {
+      margin-bottom: 3rem;
+  }
 }
 
+/* Small desktops: 993px - 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-title {
+      font-size: 4rem;
+  }
+  .section-title {
+      font-size: 3.5rem;
+  }
+}
+
+/* Large desktops: 1201px - 1400px */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .hero-title {
+      font-size: 5rem;
+  }
+  .section-title {
+      font-size: 4rem;
+  }
+}
+
+/* Extra large screens: >1400px */
+@media (min-width: 1401px) {
+  .hero-title {
+      font-size: 6rem;
+  }
+  .section-title {
+      font-size: 5rem;
+  }
+}
 
 /* Text Gradient */
 .text-gradient {
