@@ -8,15 +8,9 @@ const Hero = () => {
   return (
     <div id='home' className='hero-section'>
       <div className='hero-bg' style={{
-        position: 'absolute',
-        top:0,
-        left:0,
-        width: '100%',
-        height: '100vh',
+
         background: `linear-gradient(rgba(5,5,5,0.9), rgba(5,5,5,0.95)), url(${assets.bgImg})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
+      
       }}></div>
       <div className='hero-glow'></div>
       <Container>
